@@ -135,6 +135,7 @@ main{
     margin: 0.5rem 1rem 1rem 1rem;
     transform: scale(1.0);
     transition: transform 1.0s ease;
+    padding: 10px;
 }
 
 .product:hover img{
@@ -207,6 +208,7 @@ footer p{
 
     .product img{
         margin: 1rem 1rem 1rem 1rem;
+        padding: 10px;
     }
 
 }
