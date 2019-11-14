@@ -115,9 +115,22 @@ main{
 }
 
 .product h3{
-    bl
+    text-align: center;
+    margin-top: 20px;
 }
 
+.product:hover h3{
+    color: blue;
+}
+
+.product p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.product:hover p{
+    color: black;
+}
 .product img{
     margin: 0.5rem 1rem 1rem 1rem;
     transform: scale(1.0);
