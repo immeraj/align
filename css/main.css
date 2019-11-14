@@ -175,8 +175,8 @@ main{
 footer p{
     color: lightsteelblue;
     padding: 1rem;
-    margin: 0.5rem;
-    border: 0.1rem solid lightsteelblue;
+     border: 0.1rem solid lightsteelblue;
+    background-color:#004b85;
 }
 
 
