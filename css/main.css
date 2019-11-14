@@ -7,7 +7,7 @@
 */
 
 *{
-    padding: 0;
+    padding: 50;
     margin: 0;
     box-sizing: border-box;
 }
@@ -33,13 +33,16 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     background-image: url("../img/930-800x300.jpg");
-    background-size: 100% auto;
+    background-size: 100% ;
     background-position: center center;
+    height: 125px;
+    
 }
 
 header h1{
     font-size: 3rem;
     line-height: 6rem;
+    
 }
 
 nav{
