@@ -188,13 +188,17 @@ footer p{
     }
 
     nav{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        
     }
 
     nav a{
-        margin: 2.5rem 0.5rem 2.5rem 2.5rem;
-        border-right: darkblue solid 0.4rem;
+        margin: 0.5rem 0.5rem 0.5rem 1.5rem;
         border-bottom: none; 
+        font-size: 18px;
     }
 
     .product{
