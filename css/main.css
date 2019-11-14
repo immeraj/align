@@ -212,12 +212,20 @@ footer p{
     }
 
     .featured-product h2{
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .featured-product p{
-        
         margin: 10px 10px 20px 20px;
     }
+
+    .product h3{
+        margin-top: 5px;
+    }
+
+    .product p{
+        margin: 10px 10px 20px 20px;
+    }
+    
     
 }
