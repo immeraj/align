@@ -5,7 +5,12 @@
     https://picsum.photos/id/998/300/300
     https://picsum.photos/id/930/800/300
 */
+@import "https://fonts.googleapis.com/css?family=Vollkorn&display=swap";
 
+:root{
+    --primary1:hsl(0, 100%, 95%);
+    --primary2:hsl(0, 100%, 15%);
+}
 *{
     padding: 50;
     margin: 0;
@@ -27,7 +32,7 @@ body{
     background-color: rgb(16, 40, 65);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,h2, h3, h4, h5, h6{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -43,6 +48,9 @@ header h1{
     font-size: 3rem;
     line-height: 6rem;
     text-align:center;
+    color: var(--primary1);
+    text-shadow: 2px 2px var(--primary2);
+   
 }
 
 nav{
