@@ -178,6 +178,7 @@ footer p{
     padding: 1rem;
      border: 0.1rem solid lightsteelblue;
     background-color:#004b85;
+    text-align:center;
 }
 
 
@@ -227,5 +228,8 @@ footer p{
         margin: 10px 10px 20px 20px;
     }
     
+    footer p{
+    text-align:center;
+}
     
 }
